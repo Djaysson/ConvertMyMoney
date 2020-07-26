@@ -1,5 +1,11 @@
 body{
   text-align: center;
+  width: 800px;
+  padding: 20px 25px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow:  0 0 1.2em  #d1d1d1;
+
 }
 h1 img {
   width: 489px;
@@ -10,7 +16,7 @@ input{
   background: #fdfdfd;
   font-size: 20px;  
   padding: 10px;
-  margin:4px;
+  margin:10px;
 }  
 button{
   border: 1px solid #000000;
