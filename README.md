@@ -1,8 +1,11 @@
 <p align="center"><img src="./public/logo.png" ></img>
 <h1 align="center">Convert My Money</h1>
-<p align="center">O projeto foi desenvolvido para converter moeda estrangeira de acordo com sua contação atual do dia</p>
+<p align="center">O projeto foi desenvolvido para converter $Dollar em R$Reais de acordo com sua cotação atual do dia.
 
 
+
+## Forma de obteção da cotação do Dollar
+<p align="center"> A forma de obter a cotação do Dollar foi utilizando a API do <strong>Banco Central do Brasil </strong></p>
 
 
   ## Instalação 
