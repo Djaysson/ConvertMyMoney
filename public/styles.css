@@ -29,3 +29,49 @@ button{
   border: 1px solid #d8d8d8;
   background: #fdfdfd;
 }
+footer{
+  padding-top: 40px;
+  font-size: 15px;
+}
+@media (max-width: 768px){
+
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    padding: 20px 25px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow:  0 0 1.2em  #d1d1d1;
+  
+  }
+  h1 img {
+    width: 250px;
+    margin: 10px;
+  }
+  input{
+    border: 1px solid #000000;
+    background: #fdfdfd;
+    font-size: 15px;  
+    padding: 10px;
+    margin:10px;
+  }  
+  button{
+    border: 1px solid #000000;
+    background: #d8d8d8;
+    font-size: 15px;  
+    padding: 10px;
+  } 
+  .result{
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    background: #fdfdfd;
+  }
+  footer{
+    padding-top: 30px;
+    font-size: 12px;
+  }
+}

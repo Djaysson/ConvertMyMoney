@@ -1,6 +1,6 @@
 <p align="center"><img src="./public/logo.png" ></img>
 <h1 align="center">Convert My Money</h1>
-<p align="center">O projeto foi desenvolvido para converter $Dollar em R$Reais de acordo com sua cotação atual do dia.
+<p align="center">O projeto foi desenvolvido para converter $Dollar em R$Reais de acordo com sua cotação de venda do dollar atual do dia.
 
 
 
