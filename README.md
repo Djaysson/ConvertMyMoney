@@ -17,14 +17,19 @@ node index.js
 ```
 
 
-
 ## Autor
 **Djayson Rodrigues** - [LinkedIn](https://br.linkedin.com/in/djaysonrodrigues)
 
 
+
+## Mobile
+
+<img align="center" src="./public/mobile.png"></img>
+
 ## Frontend
 
 <img align="center" src="./public/projeto.png"></img>
+
 ## Licença
 
 [MIT](./LICENSE)
