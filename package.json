@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
   },
   "author": "Djayson Rodrigues",
   "license": "MIT",
@@ -15,7 +16,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "jest": "^26.1.0"
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.13"
   },
   "jest": {
     "collectCoverage": true

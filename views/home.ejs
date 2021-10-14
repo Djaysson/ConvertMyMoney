@@ -1,7 +1,9 @@
 <%- include('header') %>
-<form method="GET" action="/cotacao">
-  <input name="cotacao" placeholder="Cotação dolar" value="<%= cotacao %>"> <br />
-  <input name="quantidade" placeholder="Quantidade de dolares"><br />
-  <button>Converter!</button>
-</form>
-<%- include('footer') %>
+<%- include('navbar') %>
+<section class="sectionBox">
+  <% if(type === 'initial') { %> <%- include('form') %> <% } else { %> <%-
+      include ('cotacao') %> <% } %> 
+          
+   <%- include('fixed') %>
+  <%- include('footer') %>
+
