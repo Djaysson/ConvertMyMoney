@@ -1,12 +1,35 @@
-<%- include('header') %>
-<div class="result">
-  <% if(error){ %>
-  <%= error %>
-  <% }else{ %>
-  $<%= quantidade %>
-  dolares na cotação
-  R$<%= cotacao %> é igual a:
-  R$<%= conversao%> reais
-  <% } %>
-</div>
-<%- include('footer') %>
+<div class="container">
+  <article class="result">
+    <% if(error){ %>
+
+    <div class="notification">
+      <strong><%= error %></strong>
+    </div>
+
+    <% }else{ %>
+
+    <div class="cardContent">
+      <div class="content">
+
+        <div class="image">
+          <figure>
+            <img src="./image/resultLogo.png" alt="dollar currency"  />
+          </figure>
+        </div>
+
+        <div class="amount">
+          <p>$ <%= quantidade %></p>
+          <p>Cotação: R$ <%= cotacao %></p>
+        </div>
+
+      </div>
+
+      <div class="converted">
+        <p>Valem R$ <%= conversao %></p>
+      </div>
+      <a href="/" ><button class="btnBack">Voltar</button></a>
+      
+    </div>
+    <% } %>
+  </article>
+
