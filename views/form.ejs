@@ -1,21 +1,21 @@
-<div class="container"> 
-<article class="box1">
-  <form method="GET" action="/cotacao" class="form">
-    <div class="field">
-      <label class="label" for="cotacao">Cotaçao</label>
+<div class="container">
+  <article class="box1">
+    <form method="GET" action="/cotacao" class="form">
+      <div class="field">
+        <label class="label" for="cotacao">Cotaçao</label>
         <input
           type="text"
-          class="input" 
+          class="input"
           id="cotacao"
           name="cotacao"
           placeholder="Cotação Dolar"
           value="<%= cotacao %>"
           required
         />
-      <p>Favor preencher a cotação.</p>
-    </div>
-    <div class="field">
-      <label class="label" for="qtde">Quantidade</label> 
+        <p>Favor preencher a cotação.</p>
+      </div>
+      <div class="field">
+        <label class="label" for="qtde">Quantidade</label>
         <input
           type="number"
           class="input"
@@ -23,9 +23,10 @@
           name="quantidade"
           placeholder="Quantidade de dolares"
           required
-        />   
-      <p>Favor preencher a quantidade.</p>
-    </div>
-    <button class="btnConvert">Converter!</button>
-  </form>
-</article>
+        />
+        <p>Favor preencher a quantidade.</p>
+      </div>
+      <button class="btnConvert">Converter!</button>
+    </form>
+  </article>
+
